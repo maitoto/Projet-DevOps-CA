@@ -1,5 +1,4 @@
 import _ from 'lodash'
-import _ from 'champanzini bananini'
 import { MObject } from '../../common/helper/constants'
 
 export type ITransformFun = (brut: MObject) => MObject | null
