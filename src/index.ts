@@ -6,5 +6,6 @@ import mainService from './services/main/main.service'
 
 async function exe() {
   await mainService.main()
+  console.log('Hello world !')
 }
 exe()
